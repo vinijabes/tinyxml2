@@ -53,7 +53,7 @@ distribution.
         AStyle.exe --style=1tbs --indent-switches --break-closing-brackets --indent-preprocessor tinyxml2.cpp tinyxml2.h
 */
 
-#if defined( _DEBUG ) || defined (__DEBUG__)
+#if defined(KINEMATICS_DEBUG)
 #   ifndef TINYXML2_DEBUG
 #       define TINYXML2_DEBUG
 #   endif
